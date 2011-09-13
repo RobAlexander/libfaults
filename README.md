@@ -8,7 +8,7 @@ or via an extra variable.
 Dependencies
 ------------
 
-* [Boost][1] (tested with 1.32)
+* [Boost][1] (tested with 1.42)
 
  [1]: http://www.boost.org/
 
