@@ -25,9 +25,9 @@ the root installation directory._
 
 Change into the build directory of libfaults, configure `cmake` then compile:
 
-  $ cd libfaults/build
-  $ cmake .. -DCMAKE_INSTALL_PREFIX=$PSINSTALLPATH
-  $ make && make test && make install
+    $ cd libfaults/build
+    $ cmake .. -DCMAKE_INSTALL_PREFIX=$PSINSTALLPATH
+    $ make && make test && make install
 
 
 Usage
