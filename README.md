@@ -1,9 +1,10 @@
 libfaults
 =========
 
-A standalone library for modelling faults on ground-truth values. Faulty values
-can be applied in-place, i.e. overwriting the ground truth, or returned as an
-extra variable.
+A standalone library for modelling faults on ground-truth values.
+
+Faulty values can be applied in-place, i.e. overwriting the ground truth, or
+returned as an extra variable.
 
 
 Dependencies
@@ -24,11 +25,10 @@ the root installation directory._
 
 Change into the build directory of libfaults, configure `cmake` then compile:
 
-```bash
-$ cd libfaults/build
-$ cmake .. -DCMAKE_INSTALL_PREFIX=$PSINSTALLPATH
-$ make && make test && make install
-```
+  $ cd libfaults/build
+  $ cmake .. -DCMAKE_INSTALL_PREFIX=$PSINSTALLPATH
+  $ make && make test && make install
+
 
 Usage
 -----
