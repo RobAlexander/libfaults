@@ -1,8 +1,9 @@
 libfaults
 =========
 
-A library for making 'truthful' values faulty by modifying them, either in-place
-or via an extra variable.
+A standalone library for modelling faults on ground-truth values. Faulty values
+can be applied in-place, i.e. overwriting the ground truth, or returned as an
+extra variable.
 
 
 Dependencies
