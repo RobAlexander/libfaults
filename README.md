@@ -20,13 +20,13 @@ Dependencies
 Compiling
 ---------
 
-_This assumes you are using the environment variable `$PSINSTALLPATH` to specify
-the root installation directory._
-
-Change into the build directory of libfaults, configure `cmake` then compile:
+Change into the build directory of libfaults and configure `cmake`:
 
     $ cd libfaults/build
-    $ cmake .. -DCMAKE_INSTALL_PREFIX=$PSINSTALLPATH
+    $ cmake ..
+
+Compile libfaults, run the unit tests and install if they all pass:
+
     $ make && make test && make install
 
 
